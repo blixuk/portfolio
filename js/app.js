@@ -12,7 +12,7 @@ function loader() {
 			getPage('/pages/404.md');
 		}
 	} catch(TypeError) {
-		getPage('/pages/Home.md');
+		getPage('portfolio/pages/Home.md');
 	}
 }
 
